@@ -1,5 +1,4 @@
 # zConnect 4
-============
 
 zConnect 4 is a C implementation using SDL of the well known connect 4 game.
 

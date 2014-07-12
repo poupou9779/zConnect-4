@@ -3,7 +3,7 @@
 /**
         WARNING ! AI HAS TO BE FIXED !
         AI DOESN'T WORK WELL ENOUGH : IT HAS TO BE BUGGED, IT ISN'T POSSIBLE OTHERWISE;
-        EVEN WITH 4 DEPTH-LEVEL, AI STILL LOOSES.
+        EVEN WITH 7 DEPTH-LEVEL, AI STILL LOOSES.
         GOTTA BE CHECKED.
 **/
 
@@ -69,9 +69,6 @@ int eval(struct context_t *context, int player) {
         else
             return -(1000 + context->nb_free_cells - NB_CELLS_H*NB_CELLS_W);
     }
-    if(context->nb_free_cells == 0)
-        return 0;
-    else
-        return 2;
+    return 2;
 }
 

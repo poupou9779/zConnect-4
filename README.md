@@ -6,3 +6,4 @@ An 'AI' using MinMax algorithm is set up.
 
 TODO :
 * add and update the AI algorithm(s) to have more efficient algos.
+* fix the MM algorithm implementation. AI still looses even with 7 depth-level?
